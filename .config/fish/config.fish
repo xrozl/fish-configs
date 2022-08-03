@@ -34,6 +34,10 @@ set -gx PATH node_modules/.bin $PATH
 set -g GOPATH $HOME/go
 set -gx PATH $GOPATH/bin $PATH
 
+ # Rust
+ set -gx PATH $HOME/.cargo/env $PATH
+ set -gx PATH $HOME/.cargo/bin $PATH
+
 # Sublime Text
 set -g SUBL_PATH "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl"
 
